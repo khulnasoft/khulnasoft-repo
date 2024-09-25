@@ -1,0 +1,1290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD03DF1E20E6246B000744EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD03DF1D20E6246B000744EC /* Images.xcassets */; };
+		AD1B77001C92E59200BBE228 /* MTNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1B76FF1C92E59200BBE228 /* MTNotification.m */; };
+		AD1B77051C92F1B100BBE228 /* MTIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1B77041C92F1B100BBE228 /* MTIdentity.m */; };
+		AD1B77061C92F1BC00BBE228 /* MTIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1B77041C92F1B100BBE228 /* MTIdentity.m */; };
+		AD27CAA01C96E36400464762 /* Credits.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = AD27CA9E1C96E36400464762 /* Credits.rtfd */; };
+		AD3DAA8D233A3DCA00A27AAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3DAA8C233A3DCA00A27AAE /* Images.xcassets */; };
+		AD439D7F2386D6FE00B2FAD3 /* corp.khulnasoft.privileges.helper in CopyFiles */ = {isa = PBXBuildFile; fileRef = ADDEA83B1C905F9300B32C77 /* corp.khulnasoft.privileges.helper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		AD703CF82385361700A8D946 /* PrivilegesXPC.m in Sources */ = {isa = PBXBuildFile; fileRef = AD703CF72385361700A8D946 /* PrivilegesXPC.m */; };
+		AD703CFA2385361700A8D946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD703CF92385361700A8D946 /* main.m */; };
+		AD703CFE2385361700A8D946 /* PrivilegesXPC.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = AD703CF32385361700A8D946 /* PrivilegesXPC.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AD703D0423853F4600A8D946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA86F1C906CAF00B32C77 /* Foundation.framework */; };
+		AD703D0523853F4D00A8D946 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA8651C906C6600B32C77 /* Security.framework */; };
+		AD703D0623853F5300A8D946 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA8671C906C7100B32C77 /* ServiceManagement.framework */; };
+		AD7C9D8D23C4781100AFD5DE /* MTVoiceOver.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7C9D8C23C4781000AFD5DE /* MTVoiceOver.m */; };
+		AD7C9D8E23C4781100AFD5DE /* MTVoiceOver.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7C9D8C23C4781000AFD5DE /* MTVoiceOver.m */; };
+		AD7E8B021CB28FD5007C9425 /* MTIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1B77041C92F1B100BBE228 /* MTIdentity.m */; };
+		AD9C11251C92F87800A65011 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD9C11271C92F87800A65011 /* Localizable.strings */; };
+		AD9C11291C92F89100A65011 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD9C112B1C92F89100A65011 /* InfoPlist.strings */; };
+		ADA960661C905F36002AEFEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA960651C905F36002AEFEA /* AppDelegate.m */; };
+		ADA960691C905F36002AEFEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA960681C905F36002AEFEA /* main.m */; };
+		ADA9606E1C905F36002AEFEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADA9606C1C905F36002AEFEA /* MainMenu.xib */; };
+		ADB2A9BF238549E500A3C39A /* MTAuthCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDEA8561C90614100B32C77 /* MTAuthCommon.m */; };
+		ADB6654823B4F34400498686 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADB6654A23B4F34400498686 /* Localizable.strings */; };
+		ADB6655923B4FB4900498686 /* MTSyslog.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB6655323B4FB4800498686 /* MTSyslog.m */; };
+		ADB6655A23B4FB4900498686 /* MTSyslogMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB6655623B4FB4800498686 /* MTSyslogMessage.m */; };
+		ADB6655B23B4FB4900498686 /* MTSocketWrite.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB6655823B4FB4900498686 /* MTSocketWrite.m */; };
+		ADD7710B2344899D00F4B363 /* Privileges.mobileconfig in Resources */ = {isa = PBXBuildFile; fileRef = ADD7710A2344899D00F4B363 /* Privileges.mobileconfig */; };
+		ADDEA83E1C905F9300B32C77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDEA83D1C905F9300B32C77 /* main.m */; };
+		ADDEA8491C905FBB00B32C77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDEA8481C905FBB00B32C77 /* main.m */; };
+		ADDEA8571C90614100B32C77 /* MTAuthCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDEA8561C90614100B32C77 /* MTAuthCommon.m */; };
+		ADDEA8581C90614100B32C77 /* MTAuthCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDEA8561C90614100B32C77 /* MTAuthCommon.m */; };
+		ADDEA8591C90614100B32C77 /* MTAuthCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDEA8561C90614100B32C77 /* MTAuthCommon.m */; };
+		ADDEA8641C906C5F00B32C77 /* Collaboration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA8631C906C5F00B32C77 /* Collaboration.framework */; };
+		ADDEA8661C906C6600B32C77 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA8651C906C6600B32C77 /* Security.framework */; };
+		ADDEA8681C906C7100B32C77 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA8671C906C7100B32C77 /* ServiceManagement.framework */; };
+		ADDEA86A1C906C7D00B32C77 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA8691C906C7D00B32C77 /* Cocoa.framework */; };
+		ADDEA86B1C906C9C00B32C77 /* Collaboration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA8631C906C5F00B32C77 /* Collaboration.framework */; };
+		ADDEA86D1C906CA100B32C77 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA86C1C906CA100B32C77 /* CoreServices.framework */; };
+		ADDEA86E1C906CA900B32C77 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA8651C906C6600B32C77 /* Security.framework */; };
+		ADDEA8701C906CAF00B32C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA86F1C906CAF00B32C77 /* Foundation.framework */; };
+		ADDEA8711C906CDA00B32C77 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA8651C906C6600B32C77 /* Security.framework */; };
+		ADDEA8721C906CDE00B32C77 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA8671C906C7100B32C77 /* ServiceManagement.framework */; };
+		ADDEA8731C906CE000B32C77 /* Collaboration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA8631C906C5F00B32C77 /* Collaboration.framework */; };
+		ADDEA8741C906CE500B32C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDEA86F1C906CAF00B32C77 /* Foundation.framework */; };
+		ADDEA8791C906DBF00B32C77 /* PrivilegesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDEA8781C906DBF00B32C77 /* PrivilegesHelper.m */; };
+		ADDEA8831C9072D600B32C77 /* PrivilegesCLI in Resources */ = {isa = PBXBuildFile; fileRef = ADDEA8461C905FBB00B32C77 /* PrivilegesCLI */; };
+		ADE676C41CAD56A800B4C920 /* PrivilegesTile.docktileplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = ADE676BE1CAD569800B4C920 /* PrivilegesTile.docktileplugin */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ADE676C71CAD570600B4C920 /* PrivilegesTile.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE676C61CAD570600B4C920 /* PrivilegesTile.m */; };
+		ADE676CB1CAD5E2200B4C920 /* MTAuthCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = ADDEA8561C90614100B32C77 /* MTAuthCommon.m */; };
+		ADE676CC1CAD6E8F00B4C920 /* MTIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1B77041C92F1B100BBE228 /* MTIdentity.m */; };
+		ADE6930E1CC923B500219463 /* MTNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = AD1B76FF1C92E59200BBE228 /* MTNotification.m */; };
+		ADF952D123BA58C4002508B1 /* MTResolve.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF952CF23BA58C4002508B1 /* MTResolve.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD439D7C2386D6BE00B2FAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA960591C905F36002AEFEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADDEA83A1C905F9300B32C77;
+			remoteInfo = PrivilegesHelper;
+		};
+		AD703CFC2385361700A8D946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA960591C905F36002AEFEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD703CF22385361700A8D946;
+			remoteInfo = PrivilegesXPC;
+		};
+		ADDEA8611C906C4A00B32C77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADA960591C905F36002AEFEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADDEA8451C905FBB00B32C77;
+			remoteInfo = PrivilegesCLI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD439D7E2386D6E600B2FAD3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				AD439D7F2386D6FE00B2FAD3 /* corp.khulnasoft.privileges.helper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6C57AC1CACFFDA0029A439 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ADE676C41CAD56A800B4C920 /* PrivilegesTile.docktileplugin in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD703CFF2385361700A8D946 /* Embed XPC Services */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/XPCServices";
+			dstSubfolderSpec = 16;
+			files = (
+				AD703CFE2385361700A8D946 /* PrivilegesXPC.xpc in Embed XPC Services */,
+			);
+			name = "Embed XPC Services";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD03DF1D20E6246B000744EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD07065028365FD6009398B1 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		AD0B59F62328F347009B76E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		AD1A566623C334D8007914E6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		AD1A566823C338B7007914E6 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		AD1A566A23C33A9A007914E6 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		AD1A566C23C33C17007914E6 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		AD1A566E23C33D1C007914E6 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		AD1A567023C33F71007914E6 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		AD1A567223C3414F007914E6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
+		AD1B76FE1C92E59200BBE228 /* MTNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNotification.h; sourceTree = "<group>"; };
+		AD1B76FF1C92E59200BBE228 /* MTNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTNotification.m; sourceTree = "<group>"; };
+		AD1B77031C92F1B100BBE228 /* MTIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTIdentity.h; sourceTree = "<group>"; };
+		AD1B77041C92F1B100BBE228 /* MTIdentity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTIdentity.m; sourceTree = "<group>"; };
+		AD27CA9F1C96E36400464762 /* de */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = de; path = de.lproj/Credits.rtfd; sourceTree = "<group>"; };
+		AD27CAA11C96E36C00464762 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = en; path = en.lproj/Credits.rtfd; sourceTree = "<group>"; };
+		AD37E37C1CAC14BA0012C10D /* it */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = it; path = it.lproj/Credits.rtfd; sourceTree = "<group>"; };
+		AD37E37D1CAC14BA0012C10D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AD37E37E1CAC14BA0012C10D /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD3DAA8C233A3DCA00A27AAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AD703CF32385361700A8D946 /* PrivilegesXPC.xpc */ = {isa = PBXFileReference; explicitFileType = "wrapper.xpc-service"; includeInIndex = 0; path = PrivilegesXPC.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD703CF62385361700A8D946 /* PrivilegesXPC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivilegesXPC.h; sourceTree = "<group>"; };
+		AD703CF72385361700A8D946 /* PrivilegesXPC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivilegesXPC.m; sourceTree = "<group>"; };
+		AD703CF92385361700A8D946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD703CFB2385361700A8D946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD73CE8C1CB2665200298627 /* ru */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = ru; path = ru.lproj/Credits.rtfd; sourceTree = "<group>"; };
+		AD73CE8D1CB2665200298627 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AD73CE8E1CB2665200298627 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD79A0DB1D52047D00D20DA9 /* pl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = pl; path = pl.lproj/Credits.rtfd; sourceTree = "<group>"; };
+		AD79A0DC1D52047D00D20DA9 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AD79A0DD1D52047D00D20DA9 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD7C9D8B23C4781000AFD5DE /* MTVoiceOver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTVoiceOver.h; sourceTree = "<group>"; };
+		AD7C9D8C23C4781000AFD5DE /* MTVoiceOver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTVoiceOver.m; sourceTree = "<group>"; };
+		AD8EDC192850C7D10003BED5 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		AD93B6FD1CB53AF100E4064C /* es */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = es; path = es.lproj/Credits.rtfd; sourceTree = "<group>"; };
+		AD93B6FE1CB53AF100E4064C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AD93B6FF1CB53AF100E4064C /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD9C11261C92F87800A65011 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AD9C11281C92F87D00A65011 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AD9C112A1C92F89100A65011 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD9C112C1C92F89400A65011 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADA960611C905F36002AEFEA /* Privileges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Privileges.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA960641C905F36002AEFEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADA960651C905F36002AEFEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADA960681C905F36002AEFEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADA9606D1C905F36002AEFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ADA9606F1C905F36002AEFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB2A9BE2385401300A3C39A /* Privileges.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Privileges.entitlements; sourceTree = "<group>"; };
+		ADB6654923B4F34400498686 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADB6654B23B4F34E00498686 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		ADB6654C23B4F35000498686 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADB6654D23B4F35100498686 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADB6654E23B4F35200498686 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADB6654F23B4F35300498686 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADB6655023B4F35500498686 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADB6655123B4F35600498686 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADB6655223B4F35700498686 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADB6655323B4FB4800498686 /* MTSyslog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSyslog.m; sourceTree = "<group>"; };
+		ADB6655423B4FB4800498686 /* MTSyslogMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSyslogMessage.h; sourceTree = "<group>"; };
+		ADB6655523B4FB4800498686 /* MTSocketWrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSocketWrite.h; sourceTree = "<group>"; };
+		ADB6655623B4FB4800498686 /* MTSyslogMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSyslogMessage.m; sourceTree = "<group>"; };
+		ADB6655723B4FB4800498686 /* MTSyslog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTSyslog.h; sourceTree = "<group>"; };
+		ADB6655823B4FB4900498686 /* MTSocketWrite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTSocketWrite.m; sourceTree = "<group>"; };
+		ADD57FDE1CB3BE98006C5B8E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/MainMenu.strings; sourceTree = "<group>"; };
+		ADD57FDF1CB3C2C6006C5B8E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = "zh-Hans"; path = "zh-Hans.lproj/Credits.rtfd"; sourceTree = "<group>"; };
+		ADD57FE01CB3C2C7006C5B8E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		ADD57FE11CB3C2C7006C5B8E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		ADD7710A2344899D00F4B363 /* Privileges.mobileconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Privileges.mobileconfig; sourceTree = "<group>"; };
+		ADDEA83B1C905F9300B32C77 /* corp.khulnasoft.privileges.helper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = corp.khulnasoft.privileges.helper; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDEA83D1C905F9300B32C77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADDEA8461C905FBB00B32C77 /* PrivilegesCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PrivilegesCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDEA8481C905FBB00B32C77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADDEA8551C90614100B32C77 /* MTAuthCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAuthCommon.h; sourceTree = "<group>"; };
+		ADDEA8561C90614100B32C77 /* MTAuthCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAuthCommon.m; sourceTree = "<group>"; };
+		ADDEA85A1C90627F00B32C77 /* PrivilegesHelper-Launchd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PrivilegesHelper-Launchd.plist"; sourceTree = "<group>"; };
+		ADDEA85B1C9062BE00B32C77 /* PrivilegesHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrivilegesHelper-Info.plist"; sourceTree = "<group>"; };
+		ADDEA85D1C90633100B32C77 /* PrivilegesCLI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PrivilegesCLI-Info.plist"; sourceTree = "<group>"; };
+		ADDEA85E1C90634500B32C77 /* PrivilegesCLI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrivilegesCLI-Prefix.pch"; sourceTree = "<group>"; };
+		ADDEA8631C906C5F00B32C77 /* Collaboration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Collaboration.framework; path = System/Library/Frameworks/Collaboration.framework; sourceTree = SDKROOT; };
+		ADDEA8651C906C6600B32C77 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		ADDEA8671C906C7100B32C77 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		ADDEA8691C906C7D00B32C77 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ADDEA86C1C906CA100B32C77 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		ADDEA86F1C906CAF00B32C77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADDEA8771C906DBF00B32C77 /* PrivilegesHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivilegesHelper.h; sourceTree = "<group>"; };
+		ADDEA8781C906DBF00B32C77 /* PrivilegesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivilegesHelper.m; sourceTree = "<group>"; };
+		ADE676BE1CAD569800B4C920 /* PrivilegesTile.docktileplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivilegesTile.docktileplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE676C01CAD569800B4C920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE676C51CAD570600B4C920 /* PrivilegesTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivilegesTile.h; sourceTree = "<group>"; };
+		ADE676C61CAD570600B4C920 /* PrivilegesTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivilegesTile.m; sourceTree = "<group>"; };
+		ADF910D01CABDC66002BE897 /* nl */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = nl; path = nl.lproj/Credits.rtfd; sourceTree = "<group>"; };
+		ADF910D11CABDC66002BE897 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADF910D21CABDC66002BE897 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADF910D31CABDC7E002BE897 /* fr */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; name = fr; path = fr.lproj/Credits.rtfd; sourceTree = "<group>"; };
+		ADF910D41CABDC7E002BE897 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ADF910D51CABDC7E002BE897 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADF952CF23BA58C4002508B1 /* MTResolve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTResolve.m; sourceTree = "<group>"; };
+		ADF952D023BA58C4002508B1 /* MTResolve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTResolve.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD703CF02385361700A8D946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD703D0623853F5300A8D946 /* ServiceManagement.framework in Frameworks */,
+				AD703D0523853F4D00A8D946 /* Security.framework in Frameworks */,
+				AD703D0423853F4600A8D946 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA9605E1C905F36002AEFEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDEA86A1C906C7D00B32C77 /* Cocoa.framework in Frameworks */,
+				ADDEA8681C906C7100B32C77 /* ServiceManagement.framework in Frameworks */,
+				ADDEA8661C906C6600B32C77 /* Security.framework in Frameworks */,
+				ADDEA8641C906C5F00B32C77 /* Collaboration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDEA8381C905F9300B32C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDEA8701C906CAF00B32C77 /* Foundation.framework in Frameworks */,
+				ADDEA86E1C906CA900B32C77 /* Security.framework in Frameworks */,
+				ADDEA86D1C906CA100B32C77 /* CoreServices.framework in Frameworks */,
+				ADDEA86B1C906C9C00B32C77 /* Collaboration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDEA8431C905FBB00B32C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDEA8711C906CDA00B32C77 /* Security.framework in Frameworks */,
+				ADDEA8721C906CDE00B32C77 /* ServiceManagement.framework in Frameworks */,
+				ADDEA8731C906CE000B32C77 /* Collaboration.framework in Frameworks */,
+				ADDEA8741C906CE500B32C77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE676BB1CAD569800B4C920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD703CF42385361700A8D946 /* PrivilegesXPC */ = {
+			isa = PBXGroup;
+			children = (
+				AD703CF62385361700A8D946 /* PrivilegesXPC.h */,
+				AD703CF72385361700A8D946 /* PrivilegesXPC.m */,
+				AD703CF92385361700A8D946 /* main.m */,
+				AD703CFB2385361700A8D946 /* Info.plist */,
+			);
+			path = PrivilegesXPC;
+			sourceTree = "<group>";
+		};
+		AD8EDC182850C7D10003BED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD8EDC192850C7D10003BED5 /* Accounts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADA960581C905F36002AEFEA = {
+			isa = PBXGroup;
+			children = (
+				ADDEA86F1C906CAF00B32C77 /* Foundation.framework */,
+				ADDEA86C1C906CA100B32C77 /* CoreServices.framework */,
+				ADDEA8691C906C7D00B32C77 /* Cocoa.framework */,
+				ADDEA8671C906C7100B32C77 /* ServiceManagement.framework */,
+				ADDEA8651C906C6600B32C77 /* Security.framework */,
+				ADDEA8631C906C5F00B32C77 /* Collaboration.framework */,
+				ADDEA8501C9060F500B32C77 /* Common */,
+				ADA960631C905F36002AEFEA /* Privileges */,
+				ADDEA83C1C905F9300B32C77 /* PrivilegesHelper */,
+				ADDEA8471C905FBB00B32C77 /* PrivilegesCLI */,
+				ADE676BF1CAD569800B4C920 /* PrivilegesTile */,
+				AD703CF42385361700A8D946 /* PrivilegesXPC */,
+				ADA960621C905F36002AEFEA /* Products */,
+				AD8EDC182850C7D10003BED5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA960621C905F36002AEFEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA960611C905F36002AEFEA /* Privileges.app */,
+				ADDEA83B1C905F9300B32C77 /* corp.khulnasoft.privileges.helper */,
+				ADDEA8461C905FBB00B32C77 /* PrivilegesCLI */,
+				ADE676BE1CAD569800B4C920 /* PrivilegesTile.docktileplugin */,
+				AD703CF32385361700A8D946 /* PrivilegesXPC.xpc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA960631C905F36002AEFEA /* Privileges */ = {
+			isa = PBXGroup;
+			children = (
+				ADB2A9BE2385401300A3C39A /* Privileges.entitlements */,
+				ADA960641C905F36002AEFEA /* AppDelegate.h */,
+				ADA960651C905F36002AEFEA /* AppDelegate.m */,
+				AD1B76FE1C92E59200BBE228 /* MTNotification.h */,
+				AD1B76FF1C92E59200BBE228 /* MTNotification.m */,
+				AD03DF1D20E6246B000744EC /* Images.xcassets */,
+				ADA960671C905F36002AEFEA /* Supporting Files */,
+			);
+			path = Privileges;
+			sourceTree = "<group>";
+		};
+		ADA960671C905F36002AEFEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADD7710A2344899D00F4B363 /* Privileges.mobileconfig */,
+				AD27CA9E1C96E36400464762 /* Credits.rtfd */,
+				ADA9606C1C905F36002AEFEA /* MainMenu.xib */,
+				ADA9606F1C905F36002AEFEA /* Info.plist */,
+				ADA960681C905F36002AEFEA /* main.m */,
+				AD9C11271C92F87800A65011 /* Localizable.strings */,
+				AD9C112B1C92F89100A65011 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADB6654723B4F2F900498686 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADE676C01CAD569800B4C920 /* Info.plist */,
+				ADB6654A23B4F34400498686 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADDEA83C1C905F9300B32C77 /* PrivilegesHelper */ = {
+			isa = PBXGroup;
+			children = (
+				ADF952D023BA58C4002508B1 /* MTResolve.h */,
+				ADF952CF23BA58C4002508B1 /* MTResolve.m */,
+				ADB6655523B4FB4800498686 /* MTSocketWrite.h */,
+				ADB6655823B4FB4900498686 /* MTSocketWrite.m */,
+				ADB6655723B4FB4800498686 /* MTSyslog.h */,
+				ADB6655323B4FB4800498686 /* MTSyslog.m */,
+				ADB6655423B4FB4800498686 /* MTSyslogMessage.h */,
+				ADB6655623B4FB4800498686 /* MTSyslogMessage.m */,
+				ADDEA8771C906DBF00B32C77 /* PrivilegesHelper.h */,
+				ADDEA8781C906DBF00B32C77 /* PrivilegesHelper.m */,
+				ADDEA87A1C906E6F00B32C77 /* Supporting Files */,
+			);
+			path = PrivilegesHelper;
+			sourceTree = "<group>";
+		};
+		ADDEA8471C905FBB00B32C77 /* PrivilegesCLI */ = {
+			isa = PBXGroup;
+			children = (
+				ADDEA8481C905FBB00B32C77 /* main.m */,
+				ADDEA85E1C90634500B32C77 /* PrivilegesCLI-Prefix.pch */,
+				ADDEA85D1C90633100B32C77 /* PrivilegesCLI-Info.plist */,
+			);
+			path = PrivilegesCLI;
+			sourceTree = "<group>";
+		};
+		ADDEA8501C9060F500B32C77 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AD07065028365FD6009398B1 /* Constants.h */,
+				ADDEA8551C90614100B32C77 /* MTAuthCommon.h */,
+				ADDEA8561C90614100B32C77 /* MTAuthCommon.m */,
+				AD1B77031C92F1B100BBE228 /* MTIdentity.h */,
+				AD1B77041C92F1B100BBE228 /* MTIdentity.m */,
+				AD7C9D8B23C4781000AFD5DE /* MTVoiceOver.h */,
+				AD7C9D8C23C4781000AFD5DE /* MTVoiceOver.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		ADDEA87A1C906E6F00B32C77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADDEA83D1C905F9300B32C77 /* main.m */,
+				ADDEA85B1C9062BE00B32C77 /* PrivilegesHelper-Info.plist */,
+				ADDEA85A1C90627F00B32C77 /* PrivilegesHelper-Launchd.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADE676BF1CAD569800B4C920 /* PrivilegesTile */ = {
+			isa = PBXGroup;
+			children = (
+				ADB6654723B4F2F900498686 /* Supporting Files */,
+				AD3DAA8C233A3DCA00A27AAE /* Images.xcassets */,
+				ADE676C51CAD570600B4C920 /* PrivilegesTile.h */,
+				ADE676C61CAD570600B4C920 /* PrivilegesTile.m */,
+			);
+			path = PrivilegesTile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD703CF22385361700A8D946 /* PrivilegesXPC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD703D022385361700A8D946 /* Build configuration list for PBXNativeTarget "PrivilegesXPC" */;
+			buildPhases = (
+				AD703CEF2385361700A8D946 /* Sources */,
+				AD703CF02385361700A8D946 /* Frameworks */,
+				AD703CF12385361700A8D946 /* Resources */,
+				AD439D7E2386D6E600B2FAD3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD439D7D2386D6BE00B2FAD3 /* PBXTargetDependency */,
+			);
+			name = PrivilegesXPC;
+			productName = PrivilegesXPC;
+			productReference = AD703CF32385361700A8D946 /* PrivilegesXPC.xpc */;
+			productType = "com.apple.product-type.xpc-service";
+		};
+		ADA960601C905F36002AEFEA /* Privileges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA960721C905F36002AEFEA /* Build configuration list for PBXNativeTarget "Privileges" */;
+			buildPhases = (
+				ADDEA8841C90730A00B32C77 /* ShellScript */,
+				ADA9605D1C905F36002AEFEA /* Sources */,
+				ADA9605E1C905F36002AEFEA /* Frameworks */,
+				ADA9605F1C905F36002AEFEA /* Resources */,
+				AD6C57AC1CACFFDA0029A439 /* CopyFiles */,
+				AD703CFF2385361700A8D946 /* Embed XPC Services */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADDEA8621C906C4A00B32C77 /* PBXTargetDependency */,
+				AD703CFD2385361700A8D946 /* PBXTargetDependency */,
+			);
+			name = Privileges;
+			productName = Privileges;
+			productReference = ADA960611C905F36002AEFEA /* Privileges.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADDEA83A1C905F9300B32C77 /* PrivilegesHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDEA8411C905F9300B32C77 /* Build configuration list for PBXNativeTarget "PrivilegesHelper" */;
+			buildPhases = (
+				ADDEA8371C905F9300B32C77 /* Sources */,
+				ADDEA8381C905F9300B32C77 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivilegesHelper;
+			productName = PrivilegesHelper;
+			productReference = ADDEA83B1C905F9300B32C77 /* corp.khulnasoft.privileges.helper */;
+			productType = "com.apple.product-type.tool";
+		};
+		ADDEA8451C905FBB00B32C77 /* PrivilegesCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADDEA84A1C905FBB00B32C77 /* Build configuration list for PBXNativeTarget "PrivilegesCLI" */;
+			buildPhases = (
+				ADDEA8421C905FBB00B32C77 /* Sources */,
+				ADDEA8431C905FBB00B32C77 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivilegesCLI;
+			productName = PrivilegesCLI;
+			productReference = ADDEA8461C905FBB00B32C77 /* PrivilegesCLI */;
+			productType = "com.apple.product-type.tool";
+		};
+		ADE676BD1CAD569800B4C920 /* PrivilegesTile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADE676C11CAD569800B4C920 /* Build configuration list for PBXNativeTarget "PrivilegesTile" */;
+			buildPhases = (
+				ADE676BA1CAD569800B4C920 /* Sources */,
+				ADE676BB1CAD569800B4C920 /* Frameworks */,
+				ADE676BC1CAD569800B4C920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrivilegesTile;
+			productName = PrivilegesTile;
+			productReference = ADE676BE1CAD569800B4C920 /* PrivilegesTile.docktileplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA960591C905F36002AEFEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				ORGANIZATIONNAME = "KHULNASOFT SE";
+				TargetAttributes = {
+					AD703CF22385361700A8D946 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					ADA960601C905F36002AEFEA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7R5ZEU67FQ;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					ADDEA83A1C905F9300B32C77 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7R5ZEU67FQ;
+						ProvisioningStyle = Manual;
+					};
+					ADDEA8451C905FBB00B32C77 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7R5ZEU67FQ;
+						ProvisioningStyle = Manual;
+					};
+					ADE676BD1CAD569800B4C920 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7R5ZEU67FQ;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = ADA9605C1C905F36002AEFEA /* Build configuration list for PBXProject "Privileges" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+				nl,
+				fr,
+				it,
+				ru,
+				"zh-Hans",
+				es,
+				pl,
+			);
+			mainGroup = ADA960581C905F36002AEFEA;
+			productRefGroup = ADA960621C905F36002AEFEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA960601C905F36002AEFEA /* Privileges */,
+				ADDEA83A1C905F9300B32C77 /* PrivilegesHelper */,
+				ADDEA8451C905FBB00B32C77 /* PrivilegesCLI */,
+				ADE676BD1CAD569800B4C920 /* PrivilegesTile */,
+				AD703CF22385361700A8D946 /* PrivilegesXPC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD703CF12385361700A8D946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA9605F1C905F36002AEFEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD27CAA01C96E36400464762 /* Credits.rtfd in Resources */,
+				AD03DF1E20E6246B000744EC /* Images.xcassets in Resources */,
+				ADDEA8831C9072D600B32C77 /* PrivilegesCLI in Resources */,
+				AD9C11291C92F89100A65011 /* InfoPlist.strings in Resources */,
+				AD9C11251C92F87800A65011 /* Localizable.strings in Resources */,
+				ADD7710B2344899D00F4B363 /* Privileges.mobileconfig in Resources */,
+				ADA9606E1C905F36002AEFEA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE676BC1CAD569800B4C920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3DAA8D233A3DCA00A27AAE /* Images.xcassets in Resources */,
+				ADB6654823B4F34400498686 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ADDEA8841C90730A00B32C77 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "BUILD=$(/usr/libexec/PlistBuddy -c \"Print :CFBundleVersion\" \"$SRCROOT/${INFOPLIST_FILE}\")\nBUILD=$(($BUILD + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUILD\" \"$SRCROOT/${INFOPLIST_FILE}\"\nexit 0\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD703CEF2385361700A8D946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADB2A9BF238549E500A3C39A /* MTAuthCommon.m in Sources */,
+				AD703CFA2385361700A8D946 /* main.m in Sources */,
+				AD703CF82385361700A8D946 /* PrivilegesXPC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADA9605D1C905F36002AEFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD1B77001C92E59200BBE228 /* MTNotification.m in Sources */,
+				AD1B77051C92F1B100BBE228 /* MTIdentity.m in Sources */,
+				ADDEA8571C90614100B32C77 /* MTAuthCommon.m in Sources */,
+				AD7C9D8D23C4781100AFD5DE /* MTVoiceOver.m in Sources */,
+				ADA960691C905F36002AEFEA /* main.m in Sources */,
+				ADA960661C905F36002AEFEA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDEA8371C905F9300B32C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDEA8791C906DBF00B32C77 /* PrivilegesHelper.m in Sources */,
+				ADDEA83E1C905F9300B32C77 /* main.m in Sources */,
+				AD7E8B021CB28FD5007C9425 /* MTIdentity.m in Sources */,
+				ADDEA8581C90614100B32C77 /* MTAuthCommon.m in Sources */,
+				ADB6655923B4FB4900498686 /* MTSyslog.m in Sources */,
+				ADB6655B23B4FB4900498686 /* MTSocketWrite.m in Sources */,
+				ADB6655A23B4FB4900498686 /* MTSyslogMessage.m in Sources */,
+				ADF952D123BA58C4002508B1 /* MTResolve.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDEA8421C905FBB00B32C77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDEA8591C90614100B32C77 /* MTAuthCommon.m in Sources */,
+				ADDEA8491C905FBB00B32C77 /* main.m in Sources */,
+				AD1B77061C92F1BC00BBE228 /* MTIdentity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE676BA1CAD569800B4C920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE676C71CAD570600B4C920 /* PrivilegesTile.m in Sources */,
+				ADE676CB1CAD5E2200B4C920 /* MTAuthCommon.m in Sources */,
+				ADE676CC1CAD6E8F00B4C920 /* MTIdentity.m in Sources */,
+				ADE6930E1CC923B500219463 /* MTNotification.m in Sources */,
+				AD7C9D8E23C4781100AFD5DE /* MTVoiceOver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD439D7D2386D6BE00B2FAD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADDEA83A1C905F9300B32C77 /* PrivilegesHelper */;
+			targetProxy = AD439D7C2386D6BE00B2FAD3 /* PBXContainerItemProxy */;
+		};
+		AD703CFD2385361700A8D946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD703CF22385361700A8D946 /* PrivilegesXPC */;
+			targetProxy = AD703CFC2385361700A8D946 /* PBXContainerItemProxy */;
+		};
+		ADDEA8621C906C4A00B32C77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADDEA8451C905FBB00B32C77 /* PrivilegesCLI */;
+			targetProxy = ADDEA8611C906C4A00B32C77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD27CA9E1C96E36400464762 /* Credits.rtfd */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD27CA9F1C96E36400464762 /* de */,
+				AD27CAA11C96E36C00464762 /* en */,
+				ADF910D01CABDC66002BE897 /* nl */,
+				ADF910D31CABDC7E002BE897 /* fr */,
+				AD37E37C1CAC14BA0012C10D /* it */,
+				AD73CE8C1CB2665200298627 /* ru */,
+				ADD57FDF1CB3C2C6006C5B8E /* zh-Hans */,
+				AD93B6FD1CB53AF100E4064C /* es */,
+				AD79A0DB1D52047D00D20DA9 /* pl */,
+			);
+			name = Credits.rtfd;
+			sourceTree = "<group>";
+		};
+		AD9C11271C92F87800A65011 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD9C11261C92F87800A65011 /* en */,
+				AD9C11281C92F87D00A65011 /* de */,
+				ADF910D11CABDC66002BE897 /* nl */,
+				ADF910D41CABDC7E002BE897 /* fr */,
+				AD37E37D1CAC14BA0012C10D /* it */,
+				AD73CE8D1CB2665200298627 /* ru */,
+				ADD57FE01CB3C2C7006C5B8E /* zh-Hans */,
+				AD93B6FE1CB53AF100E4064C /* es */,
+				AD79A0DC1D52047D00D20DA9 /* pl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		AD9C112B1C92F89100A65011 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD9C112A1C92F89100A65011 /* en */,
+				AD9C112C1C92F89400A65011 /* de */,
+				ADF910D21CABDC66002BE897 /* nl */,
+				ADF910D51CABDC7E002BE897 /* fr */,
+				AD37E37E1CAC14BA0012C10D /* it */,
+				AD73CE8E1CB2665200298627 /* ru */,
+				ADD57FE11CB3C2C7006C5B8E /* zh-Hans */,
+				AD93B6FF1CB53AF100E4064C /* es */,
+				AD79A0DD1D52047D00D20DA9 /* pl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADA9606C1C905F36002AEFEA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADA9606D1C905F36002AEFEA /* Base */,
+				ADD57FDE1CB3BE98006C5B8E /* de */,
+				AD0B59F62328F347009B76E0 /* en */,
+				AD1A566623C334D8007914E6 /* es */,
+				AD1A566823C338B7007914E6 /* it */,
+				AD1A566A23C33A9A007914E6 /* nl */,
+				AD1A566C23C33C17007914E6 /* fr */,
+				AD1A566E23C33D1C007914E6 /* ru */,
+				AD1A567023C33F71007914E6 /* pl */,
+				AD1A567223C3414F007914E6 /* zh-Hans */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		ADB6654A23B4F34400498686 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADB6654923B4F34400498686 /* en */,
+				ADB6654B23B4F34E00498686 /* zh-Hans */,
+				ADB6654C23B4F35000498686 /* nl */,
+				ADB6654D23B4F35100498686 /* fr */,
+				ADB6654E23B4F35200498686 /* de */,
+				ADB6654F23B4F35300498686 /* it */,
+				ADB6655023B4F35500498686 /* pl */,
+				ADB6655123B4F35600498686 /* ru */,
+				ADB6655223B4F35700498686 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD703D002385361700A8D946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PrivilegesXPC/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.5.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.khulnasoft.privileges.xpc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AD703D012385361700A8D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = PrivilegesXPC/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.5.4;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.khulnasoft.privileges.xpc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ADA960701C905F36002AEFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ADA960711C905F36002AEFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ADA960731C905F36002AEFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = default;
+				CODE_SIGN_ENTITLEMENTS = Privileges/Privileges.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_ONLY_ACTIVE_RESOURCES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Privileges",
+					"$(PROJECT_DIR)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = Privileges/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.5.4;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.khulnasoft.privileges;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADA960741C905F36002AEFEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_STANDALONE_ICON_BEHAVIOR = default;
+				CODE_SIGN_ENTITLEMENTS = Privileges/Privileges.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_ONLY_ACTIVE_RESOURCES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Privileges",
+					"$(PROJECT_DIR)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = Privileges/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.5.4;
+				PRODUCT_BUNDLE_IDENTIFIER = corp.khulnasoft.privileges;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADDEA83F1C905F9300B32C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "PrivilegesHelper/PrivilegesHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.5.4;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"PrivilegesHelper/PrivilegesHelper-Launchd.plist",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = corp.khulnasoft.privileges.helper;
+				PRODUCT_NAME = corp.khulnasoft.privileges.helper;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ADDEA8401C905F9300B32C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "PrivilegesHelper/PrivilegesHelper-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.5.4;
+				OTHER_LDFLAGS = (
+					"-sectcreate",
+					__TEXT,
+					__launchd_plist,
+					"PrivilegesHelper/PrivilegesHelper-Launchd.plist",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = corp.khulnasoft.privileges.helper;
+				PRODUCT_NAME = corp.khulnasoft.privileges.helper;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ADDEA84B1C905FBB00B32C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PrivilegesCLI/PrivilegesCLI-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.5.4;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = corp.khulnasoft.privileges.cli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ADDEA84C1C905FBB00B32C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PrivilegesCLI/PrivilegesCLI-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.5.4;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = corp.khulnasoft.privileges.cli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		ADE676C21CAD569800B4C920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/System/Library/PrivateFrameworks,
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = PrivilegesTile/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.5.4;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-framework",
+					Foundation,
+					"-framework",
+					login,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = corp.khulnasoft.privileges.docktileplugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = docktileplugin;
+			};
+			name = Debug;
+		};
+		ADE676C31CAD569800B4C920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 7R5ZEU67FQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/System/Library/PrivateFrameworks,
+				);
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = PrivilegesTile/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.5.4;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppKit,
+					"-framework",
+					Foundation,
+					"-framework",
+					login,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = corp.khulnasoft.privileges.docktileplugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = docktileplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD703D022385361700A8D946 /* Build configuration list for PBXNativeTarget "PrivilegesXPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD703D002385361700A8D946 /* Debug */,
+				AD703D012385361700A8D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA9605C1C905F36002AEFEA /* Build configuration list for PBXProject "Privileges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA960701C905F36002AEFEA /* Debug */,
+				ADA960711C905F36002AEFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA960721C905F36002AEFEA /* Build configuration list for PBXNativeTarget "Privileges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA960731C905F36002AEFEA /* Debug */,
+				ADA960741C905F36002AEFEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDEA8411C905F9300B32C77 /* Build configuration list for PBXNativeTarget "PrivilegesHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDEA83F1C905F9300B32C77 /* Debug */,
+				ADDEA8401C905F9300B32C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADDEA84A1C905FBB00B32C77 /* Build configuration list for PBXNativeTarget "PrivilegesCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADDEA84B1C905FBB00B32C77 /* Debug */,
+				ADDEA84C1C905FBB00B32C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADE676C11CAD569800B4C920 /* Build configuration list for PBXNativeTarget "PrivilegesTile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE676C21CAD569800B4C920 /* Debug */,
+				ADE676C31CAD569800B4C920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA960591C905F36002AEFEA /* Project object */;
+}
